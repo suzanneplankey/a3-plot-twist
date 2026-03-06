@@ -13,7 +13,7 @@
         ]
     },
     "uiConfig": {
-        "contactEmail": "contact@revisit.dev",
+        "contactEmail": "scplankey@wpi.edu",
         "helpTextPath": "a3-plot-twist/assets/help.md",
         "logoPath": "revisitAssets/revisitLogoSquare.svg",
         "withProgressBar": true,
