@@ -129,7 +129,7 @@ export function AuthProvider({ children } : { children: ReactNode }) {
         };
         const isAdmin = await verifyAdminStatus(currUser);
         currUser.isAdmin = !!isAdmin;
-        setUser(nonAuthUser);
+        setUser(currUser);
       } else {
         logout();
       }
