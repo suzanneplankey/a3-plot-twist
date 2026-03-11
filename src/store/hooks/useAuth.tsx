@@ -142,7 +142,7 @@ export function AuthProvider({ children } : { children: ReactNode }) {
         if (authInfo?.isEnabled) {
           storageEngine.unsubscribe(handleAuthStateChanged);
         } else {
-          setUser(currUser);
+          setUser(nonAuthUser);
         }
       } else if (storageEngine) {
         setUser(nonAuthUser);
